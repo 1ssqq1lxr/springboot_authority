@@ -12,6 +12,15 @@ import javax.crypto.spec.SecretKeySpec;
  */
 public class AESUtils {
 
+    public static void main(String[] a){
+        String sc ="123";
+        String  value ="lxr7293209";
+        String mk =encrypt(sc,value);
+        String value1 = decrypt(sc,mk);
+        System.out.println(mk);
+        System.out.println(value1);
+    }
+
     private AESUtils(){}
 
     /**

@@ -53,6 +53,7 @@ public class RoleServiceImpl extends BaseServiceImpl<Role, Integer> implements I
 			role.setUpdateTime(new Date());
 			save(role);
 		}
+
 	}
 
 	
